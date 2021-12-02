@@ -1,0 +1,10 @@
+create DATABASE companydet
+create table companydetails(
+Name varchar(255) not null,
+Employee_ID int not null,
+Company_Name varchar(255) not null,
+Email varchar(255) not null,
+
+);
+truncate companydetails
+select * from companydetails;
